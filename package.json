@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "predeploy": "npm run build",
-	"deploy": "gh-pages -b assessment -d build",
+	"deploy": "gh-pages -b master -d build",
     "lint": "eslint ./src/",
     "start": "react-scripts start",
     "build": "react-scripts build",
